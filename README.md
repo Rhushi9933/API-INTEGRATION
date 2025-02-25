@@ -20,7 +20,7 @@
   
   This project is a simple, interactive weather application that fetches and displays real-time weather data from the OpenWeatherMap API. The application allows users to enter a city name and receive current weather details, including temperature, humidity, wind speed, and weather conditions. The data is dynamically loaded using JavaScript, making the webpage responsive and user-friendly.
   This project demonstrates how to integrate a third-party API into a web application using JavaScript and fetch real-time data. It also emphasizes handling API responses, error messages, and dynamically updating the UI based on user input.
-  
+________________________________________
 
 Technologies Used
 
@@ -34,7 +34,7 @@ Technologies Used
   
   •	OpenWeatherMap API: To fetch real-time weather data
   
-
+________________________________________
 Key Features
 
   1)	Search Functionality
@@ -71,7 +71,7 @@ Key Features
   
   •	The error handling ensures a smooth user experience by preventing crashes and displaying a user-friendly error message.
     
-
+________________________________________
 Code Explanation:
 
   HTML Structure:
@@ -116,11 +116,11 @@ Event Handling:
       
   When the button is clicked, the app fetches and updates the weather data accordingly.
   
-
+________________________________________
 Conclusion:
 
   This project effectively demonstrates API integration, dynamic data handling, and front-end development techniques. It is a useful beginner-friendly project for learning JavaScript, working with APIs, and improving UI/UX with real-time data updates. The Weather App can be further enhanced by adding features such as geolocation-based weather detection, extended forecasts, and improved UI animations.
-
+________________________________________
 
 #OUTPUT
 ![Image](https://github.com/user-attachments/assets/d1dc5bb8-943d-428e-ab0d-e82da948f926)
