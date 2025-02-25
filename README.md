@@ -34,6 +34,7 @@ Technologies Used
   
   •	OpenWeatherMap API: To fetch real-time weather data
   
+
 Key Features
 
   1)	Search Functionality
