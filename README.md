@@ -20,33 +20,41 @@
   
   This project is a simple, interactive weather application that fetches and displays real-time weather data from the OpenWeatherMap API. The application allows users to enter a city name and receive current weather details, including temperature, humidity, wind speed, and weather conditions. The data is dynamically loaded using JavaScript, making the webpage responsive and user-friendly.
   This project demonstrates how to integrate a third-party API into a web application using JavaScript and fetch real-time data. It also emphasizes handling API responses, error messages, and dynamically updating the UI based on user input.
+  
 
 Technologies Used
 
   The project is built using:
+  
   •	HTML: For the webpage structure
+  
   •	CSS: For styling and responsiveness
+  
   •	JavaScript: For API integration, fetching data, and handling user interactions
+  
   •	OpenWeatherMap API: To fetch real-time weather data
+  
 
 Key Features
+
   1)	Search Functionality
-    •	Users can enter a city name in the input box to get weather details.
-    •	A search button triggers an API request to fetch weather data.
+
+  •	Users can enter a city name in the input box to get weather details.
+  •	A search button triggers an API request to fetch weather data.
   
-  2)	Dynamic Data Fetching
+  3)	Dynamic Data Fetching
     •	Uses the fetch() method to request data from the OpenWeatherMap API.
     •	Data is retrieved in JSON format and parsed to extract relevant weather details.
   
-  3)	Weather Details Display
+  4)	Weather Details Display
     •	Displays the city name, temperature (in Celsius), humidity percentage, and wind speed (in km/h).
     •	Dynamically updates the weather information when a user enters a new city.
   
-  4)	Weather Condition Icons
+  5)	Weather Condition Icons
     •	The app updates the weather icon dynamically based on the weather condition returned by the API.
     •	Different weather conditions like clear, clouds, rain, drizzle, and mist have corresponding images displayed.
   
-  5)	Error Handling
+  6)	Error Handling
     •	If a user enters an invalid city name, an error message is displayed.
     •	The error handling ensures a smooth user experience by preventing crashes and displaying a user-friendly error message.
 
